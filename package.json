@@ -1,0 +1,33 @@
+{
+  "name": "musicxml-to-speaker",
+  "version": "0.0.0",
+  "description": "Output MusicXML to the speakers.",
+  "author": "Luke Horvat",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukehorvat/musicxml-to-speaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukehorvat/musicxml-to-speaker/issues"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "musicxml-to-pcm": "0.0.1",
+    "speaker": "0.2.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "musicxml",
+    "speaker",
+    "pcm",
+    "audio",
+    "sound",
+    "data",
+    "sample",
+    "stream"
+  ]
+}
