@@ -12,6 +12,7 @@
     "url": "https://github.com/lukehorvat/musicxml-to-speaker/issues"
   },
   "main": "./index.js",
+  "bin": "./cli.js",
   "dependencies": {
     "musicxml-to-pcm": "0.0.1",
     "speaker": "0.2.1"
@@ -22,6 +23,7 @@
   },
   "keywords": [
     "musicxml",
+    "xml",
     "speaker",
     "pcm",
     "audio",
