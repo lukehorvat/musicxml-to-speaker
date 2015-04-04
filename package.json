@@ -1,6 +1,6 @@
 {
   "name": "musicxml-to-speaker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Output MusicXML to the speakers.",
   "author": "Luke Horvat",
   "license": "MIT",
