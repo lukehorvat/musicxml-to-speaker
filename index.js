@@ -9,6 +9,6 @@ module.exports.play = function(file) {
   var samplesPerSecond = 44100;
 
   return musicXmlToPcm
-  .newStream(fs.readFileSync(file, "utf8"), bitsPerSample, samplesPerSecond)
+  .newStream(fs.readFileSync(file), bitsPerSample, samplesPerSecond)
   .pipe(new Speaker({ channels: 1, bitDepth: bitsPerSample, sampleRate: samplesPerSecond }));
 };

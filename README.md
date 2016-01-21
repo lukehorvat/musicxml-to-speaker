@@ -27,7 +27,7 @@ var musicXmlToSpeaker = require("musicxml-to-speaker");
 
 var stream = musicXmlToSpeaker.play("song.xml");
 
-stream.on("finish", function() { console.log("Done!"); });
+stream.on("finish", function() { console.log("Done!") });
 ```
 
 ## Related
